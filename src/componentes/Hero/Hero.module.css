@@ -8,12 +8,6 @@
   background: hsl(0deg 0% 1%);
 }
 
-/* @media (min-width: 60rem) {
-  .wrapper {
-    max-width: 100%;
-  }
-} */
-
 .heroImage {
   display: block;
   width: 500px;
