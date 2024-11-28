@@ -1,0 +1,34 @@
+.wrapper {
+  position: relative;
+  height: 60vh;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: hsl(0deg 0% 1%);
+}
+
+/* @media (min-width: 60rem) {
+  .wrapper {
+    max-width: 100%;
+  }
+} */
+
+.heroImage {
+  display: block;
+  width: 500px;
+  height: 500px;
+  max-height: 100%;
+}
+
+.swoop {
+  position: absolute;
+  left: 0;
+  right: 0;
+  /*
+    Sobresaldrá por un par de píxeles para evitar cualquier problema
+    de redondeo de píxeles
+  */
+  bottom: -20px;
+  width: 100%;
+}

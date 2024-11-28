@@ -6,6 +6,12 @@
   height: 2em;
 }
 
+@media (max-width: 20rem) {
+  .wrapper {
+    min-width: 400px;
+  }
+}
+
 .input {
   position: absolute;
   top: 0;
