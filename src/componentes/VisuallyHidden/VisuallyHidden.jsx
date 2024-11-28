@@ -26,7 +26,7 @@ export default function VisuallyHidden({ children, ...delegated }) {
     }
   }, []);
 
-  if (forceShow) {
+  if (forceVisibility) {
     return children;
   }
   return (
