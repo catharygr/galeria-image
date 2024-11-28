@@ -7,7 +7,6 @@ export default function Header() {
       <div className={styles.innerWrapper}>
         <Logo />
       </div>
-      <h1>Animals Gallery</h1>
     </header>
   );
 }
