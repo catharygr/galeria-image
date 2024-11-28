@@ -12,13 +12,13 @@ export default function Header() {
         <nav className={styles.desktoNav}>
           <ul className={styles.navList}>
             <li>
-              <Link href="#">Categories</Link>
+              <Link href="/categories">Categories</Link>
             </li>
             <li>
-              <Link href="#">Submissions</Link>
+              <Link href="/submissions">Submissions</Link>
             </li>
             <li>
-              <Link href="#">Sign Up</Link>
+              <Link href="/sign-up">Sign Up</Link>
             </li>
           </ul>
         </nav>
