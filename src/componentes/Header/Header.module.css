@@ -10,3 +10,27 @@
   max-width: calc(1200 / 16 * 1rem);
   margin: 0 auto;
 }
+
+.growingSearchInput {
+  flex: 1;
+}
+
+.desktoNav {
+  display: none;
+  margin-left: auto;
+
+  @media (min-width: 60rem) {
+    display: revert;
+  }
+}
+
+.navList {
+  display: flex;
+  gap: 32px;
+}
+
+.navList a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 475;
+}
