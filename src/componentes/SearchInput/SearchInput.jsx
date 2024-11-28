@@ -13,7 +13,11 @@ export default function SearchInput(props) {
       <input
         type="search"
         placeholder="Search..."
+        className={styles.input}
       />
+      <button>
+        <VisuallyHidden>Submit</VisuallyHidden>
+      </button>
     </div>
   );
 }
