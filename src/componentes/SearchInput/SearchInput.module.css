@@ -19,8 +19,22 @@
   padding: 0 16px;
   outline-offset: 4px;
   font-size: 1rem;
+}
+.input:focus {
+  background: var(--color-gray-200);
+}
 
-  &:focus {
-    background: var(--color-gray-200);
-  }
+.submitBtn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  padding-right: 8px;
+  background: transparent;
+  outline-offset: 4px;
+  cursor: pointer;
 }

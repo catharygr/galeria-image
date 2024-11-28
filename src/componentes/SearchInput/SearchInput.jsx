@@ -1,5 +1,6 @@
 import styles from "./SearchInput.module.css";
 import VisuallyHidden from "../VisuallyHidden";
+import { Search } from "react-feather";
 
 export default function SearchInput(props) {
   return (
@@ -15,8 +16,9 @@ export default function SearchInput(props) {
         placeholder="Search..."
         className={styles.input}
       />
-      <button>
+      <button className={styles.submitBtn}>
         <VisuallyHidden>Submit</VisuallyHidden>
+        <Search size={16} />
       </button>
     </div>
   );
