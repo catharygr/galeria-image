@@ -16,7 +16,6 @@ export default function Hero() {
         className={styles.swoop}
         src={swoop}
         alt="Gallery swoop"
-        priority
       />
     </section>
   );
