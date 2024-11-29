@@ -1,7 +1,5 @@
 .wrapper {
   position: relative;
-  /* height: 60vh; */
-  /* min-height: 400px; */
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -25,4 +23,11 @@
   */
   bottom: -20px;
   width: 100%;
+}
+
+@media (min-width: 23rem) {
+  .wrapper {
+    width: calc(600 / 16 * 1rem);
+    align-items: center;
+  }
 }
