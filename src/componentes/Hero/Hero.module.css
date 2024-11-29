@@ -2,32 +2,21 @@
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  width: 100%;
   background: hsl(0deg 0% 1%);
-}
-
-.heroImage {
-  display: block;
-  width: 500px;
-  height: 500px;
-  max-height: 100%;
 }
 
 .swoop {
   position: absolute;
   left: 0;
   right: 0;
-  /*
-    Sobresaldrá por un par de píxeles para evitar cualquier problema
-    de redondeo de píxeles
-  */
   bottom: -20px;
   width: 100%;
 }
 
-/* @media (min-width: 23rem) {
+@media (max-width: 768px) {
   .wrapper {
-    width: calc(600 / 16 * 1rem);
-    align-items: center;
+    max-width: calc(500 / 16 * 1rem);
   }
-} */
+}

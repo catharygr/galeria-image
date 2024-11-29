@@ -12,6 +12,7 @@ export default function SearchInput(props) {
         <VisuallyHidden>Search</VisuallyHidden>
       </label>
       <input
+        id="search"
         type="search"
         placeholder="Search..."
         className={styles.input}

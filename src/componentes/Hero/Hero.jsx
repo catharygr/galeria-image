@@ -10,11 +10,13 @@ export default function Hero() {
         className={styles.heroImage}
         src={hero}
         alt="Hero"
+        priority
       />
       <Image
         className={styles.swoop}
         src={swoop}
-        alt=""
+        alt="Gallery swoop"
+        priority
       />
     </section>
   );
