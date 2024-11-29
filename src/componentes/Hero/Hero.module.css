@@ -25,9 +25,9 @@
   width: 100%;
 }
 
-@media (min-width: 23rem) {
+/* @media (min-width: 23rem) {
   .wrapper {
     width: calc(600 / 16 * 1rem);
     align-items: center;
   }
-}
+} */
