@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import Header from "@/componentes/Header";
-import Hero from "@/componentes/Hero";
+// import Hero from "@/componentes/Hero";
 
 export default function Home() {
   return (
@@ -8,9 +8,7 @@ export default function Home() {
       <div className={styles.headerWrapper}>
         <Header />
       </div>
-      <main className={styles.main}>
-        <Hero />
-      </main>
+      <main className={styles.main}>{/* <Hero /> */}</main>
     </>
   );
 }
