@@ -1,7 +1,4 @@
 .wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-color: var(--color-background);
 }
 
@@ -35,9 +32,9 @@
   font-weight: 475;
 }
 
-@media (max-width: 23rem) {
+@media (max-width: 500px) {
   .innerWrapper {
-    max-width: calc(500 / 16 * 1rem);
+    max-width: 500px;
   }
 
   .navList {
