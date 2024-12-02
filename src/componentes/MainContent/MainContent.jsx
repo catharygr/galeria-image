@@ -1,6 +1,7 @@
 import data from "../../data";
 import VisuallyHidden from "../VisuallyHidden";
 import styles from "./MainContent.module.css";
+import PhotoGridItem from "../PhotoGridItem";
 
 export default function MainContent() {
   return (
@@ -8,7 +9,7 @@ export default function MainContent() {
       <VisuallyHidden>
         <h1>All Ph0tos</h1>
       </VisuallyHidden>
-      {/* {data.map(({ id, src, alt, tags }) => (
+      {data.map(({ id, src, alt, tags }) => (
         <PhotoGridItem
           key={id}
           id={id}
@@ -16,7 +17,7 @@ export default function MainContent() {
           alt={alt}
           tags={tags}
         />
-      ))} */}
+      ))}
     </div>
   );
 }
