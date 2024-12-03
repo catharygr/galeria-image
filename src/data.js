@@ -60,13 +60,13 @@ const data = [
   },
   {
     id: "j",
-    src: "/images/animal-11.jpeg",
+    src: "/images/animal-11.jpg",
     alt: "My doggo, Simba, and my cat, Kiara, looking majestic",
     tags: ["dog", "cat", "HD"],
   },
   {
     id: "k",
-    src: "/images/animal-12.jpeg",
+    src: "/images/animal-12.jpg",
     alt: "My doggo, Kovu, looking majestic",
     tags: ["dog", "HD"],
   },
@@ -109,6 +109,42 @@ const data = [
   {
     id: "r",
     src: "/images/animal-19.jpg",
+    alt: "My doggo, Zuhur, looking majestic",
+    tags: ["dog", "photo"],
+  },
+  {
+    id: "s",
+    src: "/images/animal-5.jpg",
+    alt: "My doggo, Zuhur, looking majestic",
+    tags: ["dog", "photo"],
+  },
+  {
+    id: "t",
+    src: "/images/animal-6.jpg",
+    alt: "My doggo, Zuhur, looking majestic",
+    tags: ["dog", "photo"],
+  },
+  {
+    id: "u",
+    src: "/images/animal-7.jpg",
+    alt: "My doggo, Zuhur, looking majestic",
+    tags: ["dog", "photo"],
+  },
+  {
+    id: "v",
+    src: "/images/animal-8.jpg",
+    alt: "My doggo, Zuhur, looking majestic",
+    tags: ["dog", "photo"],
+  },
+  {
+    id: "w",
+    src: "/images/animal-9.jpg",
+    alt: "My doggo, Zuhur, looking majestic",
+    tags: ["dog", "photo"],
+  },
+  {
+    id: "x",
+    src: "/images/animal-10.jpg",
     alt: "My doggo, Zuhur, looking majestic",
     tags: ["dog", "photo"],
   },
