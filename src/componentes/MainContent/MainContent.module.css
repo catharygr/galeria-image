@@ -4,5 +4,5 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding-top: 128px;
   padding-bottom: 128px;
-
+  padding-inline: 3rem;
 }
