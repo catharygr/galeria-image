@@ -12,11 +12,6 @@ export default function Hero() {
         alt="Hero"
         priority
       />
-      <Image
-        className={styles.swoop}
-        src={swoop}
-        alt="Gallery swoop"
-      />
     </section>
   );
 }
