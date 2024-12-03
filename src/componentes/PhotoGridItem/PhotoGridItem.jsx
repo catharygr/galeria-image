@@ -5,22 +5,21 @@ import styles from "./PhotoGridItem.module.css";
 import { useState } from "react";
 
 export default function PhotoGridItem({ id, src, alt, tags }) {
-  const [activeImageIndex, setActiveImageIndex] = useState(null);
+  const [isExpanded, setIsExpanded] = useState(false);
+  const handleImageClick = () => {
+    setIsExpanded(!isExpanded);
+  };
   return (
     <article>
-      <Link
-        href={`/photos/${id}`}
-        className={styles.a}
-      >
-        <Image
-          className={styles.img}
-          src={src}
-          alt={alt}
-          width={300}
-          height={300}
-          priority
-        />
-      </Link>
+      <Image
+        className={`${styles.img} ${isExpanded ? styles.expanded : ""}`}
+        src={src}
+        alt={alt}
+        width={300}
+        height={300}
+        priority
+        onClick={handleImageClick}
+      />
       <ul className={styles.tags}>
         {tags.map((tag) => (
           <li key={tag}>{tag}</li>
