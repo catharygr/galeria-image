@@ -1,8 +1,11 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./PhotoGridItem.module.css";
+import { useState } from "react";
 
 export default function PhotoGridItem({ id, src, alt, tags }) {
+  const [activeImageIndex, setActiveImageIndex] = useState(null);
   return (
     <article>
       <Link
