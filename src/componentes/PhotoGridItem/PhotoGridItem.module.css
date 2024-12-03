@@ -4,15 +4,17 @@
   height: 300px;
   border-radius: 2px;
   margin-bottom: 8px;
-  /* object-fit: cover; */
+  object-fit: cover;
   transition: transform 0.3s ease-in-out;
-  cursor: pointer;
+  cursor: zoom-out;
 }
 
 .img.expanded {
+  position: relative;
   transform: scale(1.5);
   z-index: 10;
-  position: relative;
+  overflow: hidden;
+  aspect-ratio: 3/2;
 }
 
 .tags {
