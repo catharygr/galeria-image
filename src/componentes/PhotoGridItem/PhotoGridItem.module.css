@@ -23,3 +23,11 @@
   flex-wrap: wrap;
   gap: 8px;
 }
+
+.tag {
+  padding: 4px 8px;
+  background: var(--color-gray-300);
+  font-size: 0.875rem;
+  font-weight: 475;
+  color: var(--color-gray-800);
+}
