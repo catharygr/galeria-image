@@ -1,6 +1,5 @@
 import styles from "./Hero.module.css";
 import Image from "next/image";
-import swoop from "../../../public/images/swoop.svg";
 import hero from "../../../public/images/hero-img.jpg";
 
 export default function Hero() {
