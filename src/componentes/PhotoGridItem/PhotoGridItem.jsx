@@ -22,7 +22,12 @@ export default function PhotoGridItem({ id, src, alt, tags }) {
       />
       <ul className={styles.tags}>
         {tags.map((tag) => (
-          <li key={tag}>{tag}</li>
+          <li
+            className={styles.tag}
+            key={tag}
+          >
+            {tag}
+          </li>
         ))}
       </ul>
     </article>
