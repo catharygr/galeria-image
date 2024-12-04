@@ -6,3 +6,11 @@
   padding-bottom: 5rem;
   padding-inline: 3rem;
 }
+@media (max-width: 500px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-inline: 1rem;
+  }
+}

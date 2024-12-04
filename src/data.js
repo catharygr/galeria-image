@@ -3,12 +3,7 @@ const data = [
     id: "a",
     src: "/images/vincent-van-zalinge-bird.jpg",
     alt: "A tiny shrewd turquoise-and-amber bird",
-    tags: [
-      "bird",
-      "blurred background",
-      "wildlife",
-      "animal in its natural habitat",
-    ],
+    tags: ["bird", "wildlife"],
   },
   {
     id: "b",
@@ -32,7 +27,7 @@ const data = [
     id: "e",
     src: "/images/karsten-winegeart-dog.jpg",
     alt: 'A small dog wearing a golden "Champions" hoodie',
-    tags: ["dog", "cute", "animal wearing human clothes"],
+    tags: ["dog", "cute", "hoodie"],
   },
   {
     id: "f",
@@ -44,7 +39,7 @@ const data = [
     id: "g",
     src: "/images/mark-stoop-lizard.jpg",
     alt: "A relaxed green lizard, sitting on a wooden beam",
-    tags: ["lizard", "world-famous insurance salesman from the commercials"],
+    tags: ["lizard", "reptile", "wood"],
   },
   {
     id: "h",
@@ -115,38 +110,38 @@ const data = [
   {
     id: "s",
     src: "/images/animal-5.jpg",
-    alt: "My doggo, Zuhur, looking majestic",
-    tags: ["dog", "photo"],
+    alt: "Needlefish",
+    tags: ["needlefish", "nature"],
   },
   {
     id: "t",
     src: "/images/animal-6.jpg",
-    alt: "My doggo, Zuhur, looking majestic",
-    tags: ["dog", "photo"],
+    alt: "Seahorse",
+    tags: ["seahorse", "nature"],
   },
   {
     id: "u",
     src: "/images/animal-7.jpg",
-    alt: "My doggo, Zuhur, looking majestic",
+    alt: "My doggo, Simba, cute ",
     tags: ["dog", "photo"],
   },
   {
     id: "v",
     src: "/images/animal-8.jpg",
-    alt: "My doggo, Zuhur, looking majestic",
-    tags: ["dog", "photo"],
+    alt: "My Cat, Kiara, cute ",
+    tags: ["cat", "photo"],
   },
   {
     id: "w",
     src: "/images/animal-9.jpg",
-    alt: "My doggo, Zuhur, looking majestic",
-    tags: ["dog", "photo"],
+    alt: "Turtle, in the zoo",
+    tags: ["turtle", "zoo"],
   },
   {
     id: "x",
     src: "/images/animal-10.jpg",
-    alt: "My doggo, Zuhur, looking majestic",
-    tags: ["dog", "photo"],
+    alt: "Fish, in school",
+    tags: ["fish", "school"],
   },
 ];
 
